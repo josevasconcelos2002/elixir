@@ -4,5 +4,5 @@ defmodule Ex9 do
   def replicate(n,x),do: [x|replicate(n-1,x)]
 end
 
-#IO.inspect(Ex9.replicate(1, 10))
+IO.inspect(Ex9.replicate(3, 10),charlists: :as_lists)
 #nao esta a funcionar bem
