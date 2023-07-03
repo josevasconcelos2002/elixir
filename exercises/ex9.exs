@@ -5,4 +5,3 @@ defmodule Ex9 do
 end
 
 IO.inspect(Ex9.replicate(3, 10),charlists: :as_lists)
-#nao esta a funcionar bem
